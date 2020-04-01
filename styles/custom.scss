@@ -1,0 +1,35 @@
+/* Custom Css Styles Go here */
+
+header {
+  h1 {
+    color: #df510c;
+  }
+
+  nav a {
+    color: $maroon;
+    &:hover{
+      color: $orange;
+      transition: 0.5s;
+      text-decoration: underline;
+    }
+  }
+}
+
+.amber,
+.gallery {
+  max-width: 12em;
+}
+
+.photo {
+  max-width: 16em;
+  border: 2px $grey solid;
+  border-radius: 2em;
+}
+
+.copyright {
+  text-transform: capitalize;
+}
+
+.default-folnt-color {
+  color: $dark-grey;
+}
